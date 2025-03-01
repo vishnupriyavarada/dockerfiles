@@ -5,4 +5,4 @@ RUN mkdir /tmp/work-dir-demo
 WORKDIR /tmp/work-dir-demo
 RUN pwd
 RUN echo "Hi am from work directory" > hello.txt
-CMD ["sleep","1000;"]
+CMD ["sleep","1000"]
