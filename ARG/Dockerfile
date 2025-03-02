@@ -5,7 +5,7 @@ ENV course="DevOps with AWS" \
     duration="120 HRS"
 # user1 is key and someuser is default value
 RUN echo "Almalinux version : ${version}" > /tmp/version.txt
-ARG USERNAME=vishnupriya
+ARG USERNAME
 ENV username=${USERNAME}
 RUN echo "Hi !!! am from ARG set ENV variable. USERNAME: ${username}  "
 # Trying to printout the ARG values to some file in container
