@@ -1,2 +1,2 @@
 FROM onbuild:1.0.0
-CMD ["sleep", "500"]
+#CMD ["sleep", "500"]
